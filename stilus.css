@@ -1,0 +1,19 @@
+img{
+    width: 100%;
+}
+.Akna{
+    width: 300px;
+    background-color:orange;
+    border: 4px solid green;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+.tarolo{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    /*két oszlopos rácszerkezet, a két oszlop szélesésége egyforma */
+}
+/* töréspont */
+@media screen and (max-widht:500px)
+    /* 500px alatt pls mobil eszközön  */
