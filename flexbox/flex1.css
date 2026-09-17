@@ -1,0 +1,14 @@
+article{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-around;
+}
+section{
+    flex: 1 1 400px;
+    height: 400px;
+}
+.sec1{
+    height: 200px;
+}

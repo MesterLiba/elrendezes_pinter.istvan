@@ -1,0 +1,10 @@
+article{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-around;
+}
+section{
+    flex: 0 0 calc(33% - 10px);
+}

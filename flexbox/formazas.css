@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    text-decoration: none;
+}
+main{
+    margin: 10px;
+    border: 1px solid gray;
+    padding: 5px;
+}
+header{
+    border: solid 1px gray;
+    padding: 10px;
+    color: gray;
+}
+nav{
+    border: solid 1px gray;
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    gap: 0px;
+}
+nav ul li{
+    padding: 7px;
+    border: solid 1px grey;
+}
+nav ul li a{
+    color: red;
+}
+.kezdolap{
+    background-color: red;
+    font-weight: bold;
+}
+.kezdolap a{
+    color: white;
+}
+article{
+    border: solid 1px gray;
+    padding: 10px;
+}
+section{
+    border: solid 1px gray;
+    background-color: rgb(189, 189, 189);
+}
+section p{
+    color: white;
+    text-align: justify;
+    margin: 10px;
+}
+section div{
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    border: solid gray 1px;
+    background-color: red;
+}
+footer{
+    border: solid 1px gray;
+    padding: 10px;
+    align-items: center;
+}
+.footer{
+    background-color: white;
+    justify-content: center;
+    padding: 5px;
+}
+.footer ul{
+    gap: 10px;
+}
+
+
+@media (max-width:350px) {
+    nav{
+        flex-direction: column;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+    nav ul li{
+        text-align: center;
+    }
+}
